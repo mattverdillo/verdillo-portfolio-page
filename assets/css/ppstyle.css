@@ -1,0 +1,68 @@
+ppstyle.css
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: cadetblue;
+    color: darkviolet; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    padding: 35px 50px; 
+    background-color: darkgoldenrod; 
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: darkslateblue;
+    margin: 0; 
+    display: inline; 
+} 
+header img {
+    height: 60px; 
+    width: 60px;
+    margin: 0 20px 0 20px;
+    position: relative;
+    border: darkslateblue;
+    border-width: medium;
+}
+header a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+header nav {
+    float: right;
+    margin: 10px 0px; 
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+} 
+
+.hero {
+    background-image: url("./greenhouse-interior.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+} 
+.hero h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: darkgray;
+    text-rendering: optimizeLegibility;
+}
+.hero div {
+    padding-top: 150px;
+}
